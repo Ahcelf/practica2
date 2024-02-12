@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1;
+    padding: 10px;
+    background-color: #fff;
+}
+main{
+    padding: 4rem;
+    padding-left: 1rem;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 1rem; 
+    background-color: rgb(197, 12, 73);
+    color: #fff;
+    font-family: 'Trebuchet MS';
+}
+h1 {
+    color: crimson;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 40px;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+h3{
+    color: brown;
+    font-family: 'Trebuchet MS';
+    margin-top: 1rem;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    background: rgb(197, 12, 73);
+    padding: 0;
+
+}
+
+.menu li a {
+    font: 18px 'Trebuchet MS';
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    display: block;
+    padding: 9px;
+    color: white;
+    user-select: none;
+    list-style: none;
+}
+
+.menu li a:hover {
+    background: rgb(121, 24, 24);
+}
+
+.menu > li{
+    float: left;
+}
+
+.menu li ul{
+    display: none;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+
+/*cambio  cartelera */
+#inicio, #comprar, #contacto, #horario {
+    display: none;
+    padding: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Trebuchet MS';
+}
+
+/*cambio  cartelera */
+#inicio:target, #comprar:target, #contacto:target, #horario:target {
+    display: block;
+}
+
+
+#sub1, #sub2, #sub3 {
+    display: none;
+    padding: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Trebuchet MS';
+    margin-top: 2rem;
+}
+
+#sub1:target, #sub2:target, #sub3:target{
+    display: block;
+}
+
+#form_compra {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: rgb(197, 12, 73);
+    color: #fff;
+}
+#form_contacto{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: rgb(197, 12, 73);
+    color: #fff;
+    font-family: 'Trebuchet MS';
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+legend{
+    font-family: 'Trebuchet MS';
+}
+select, input[type="number"] {
+    width: 97%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    font-family: 'Trebuchet MS';
+}
+p.checks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+}
+button:hover {
+    background-color: #780f0f;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    color: #000000;
+}
+th {
+    background-color: #e82855;
+}
+p{
+    color: black;
+    margin-top: 2em;
+}
+
+#map1, #map2, #map3{
+    display: none;
+    padding: 20px;
+}
+
+#map1:target, #map2:target, #map3:target{
+    display: block;
+}
+input#phone_id, input#name_id, input#email_id{
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
